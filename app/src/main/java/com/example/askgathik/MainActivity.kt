@@ -18,9 +18,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
     fun onAsk(view: View) {
-        var question : String = findViewById<EditText>(R.id.enterQuestion).text.toString()
+        val question : String = findViewById<EditText>(R.id.enterQuestion).text.toString()
         if (question.isNotBlank()){
 
             val wholeView =
