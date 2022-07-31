@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AskGathik</string>
-    <string name="answer_message">The answer to %s is,\n%s</string>
+    <string name="answer_message">The answer to %s is…\n%s</string>
+    <string name="answer_message_default">Enter a question, dumbass</string>
 </resources>
