@@ -7,6 +7,8 @@ import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.EditText
 import android.widget.Toast
+import android.widget.Toast.makeText
+import com.google.android.material.snackbar.Snackbar
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
@@ -37,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         else {
-            Toast.makeText(this@MainActivity, "Please Enter a Valid Question", Toast.LENGTH_SHORT).show()
+            Snackbar.make(view, "Please Enter a Valid Question", Snackbar.LENGTH_SHORT).show()
 
         }
 
